@@ -20,10 +20,10 @@ namespace EindCaseBackEnd.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cursus>()
-                .HasKey(c => c.ID);
-            modelBuilder.Entity<CursusInstantie>()
-                .HasKey(ci => ci.CursusID);
+            //modelBuilder.Entity<Cursus>()
+            //    .HasKey(c => c.Id);
+            //modelBuilder.Entity<CursusInstantie>()
+            //    .HasKey(ci => ci.Id);
         }
 
 

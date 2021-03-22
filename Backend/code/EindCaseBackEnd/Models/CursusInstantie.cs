@@ -8,9 +8,10 @@ namespace EindCaseBackEnd.Models
 {
     public class CursusInstantie
     {
+        public int Id { get; set; }
         public DateTime StartDatum {get; set;}
         
-        public int CursusID { get; set; }
+        
 
         
 
