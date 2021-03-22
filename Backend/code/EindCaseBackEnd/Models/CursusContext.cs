@@ -23,7 +23,7 @@ namespace EindCaseBackEnd.Models
             modelBuilder.Entity<Cursus>()
                 .HasKey(c => c.ID);
             modelBuilder.Entity<CursusInstantie>()
-                .HasKey(ci => new { ci.CursusID });
+                .HasKey(ci => ci.CursusID);
         }
 
 
