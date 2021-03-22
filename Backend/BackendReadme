@@ -1,1 +1,18 @@
 Start of Backend
+
+
+Database opzetten met EF Core
+  In Package Manager Console invoeren
+    I: Add-Migration
+    II: Update-Database
+
+Momenteel bestaat de database uit een Cursussen en een Cursus tabel en een CursusInstanties tabel
+Cursussen bevat:
+I: Code 
+II: Duur
+III: Titel
+
+CursusInstanties bevat:
+I: Code
+II: StartDatum
+III: CursusCode
