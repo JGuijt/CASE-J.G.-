@@ -2,6 +2,7 @@
 using EindCaseBackEnd.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +25,13 @@ namespace EindCaseBackEnd.Controllers
         [HttpGet]
         public List<Cursus> GetCursus()
         {
-            
-            
-            
-            return cursusContext.getCursus();
+
+
+
+            var data = cursusContext.Cursussen.Include(ci => ci.CursusInstanties).ToList();
+
+            //return cursusContext.getCursus();
+            return data;
            
 
 

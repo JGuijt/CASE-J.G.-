@@ -196,3 +196,8 @@ N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseB
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

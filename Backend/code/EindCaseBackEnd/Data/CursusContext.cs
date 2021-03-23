@@ -15,14 +15,16 @@ namespace EindCaseBackEnd.Data
         { }
 
 
-        public List<Cursus> getCursus()
-        {
-            return Cursussen.ToList();
-        }
+        //public List<Cursus> getCursus()
+        //{
+              
+            
+        //    return Cursussen.ToList();
+        //}
 
         
-        DbSet<Cursus> Cursussen {get; set;}
-        DbSet<CursusInstantie> CursusInstanties { get; set; }
+        public DbSet<Cursus> Cursussen {get; set;}
+        public DbSet<CursusInstantie> CursusInstanties { get; set; }
 
 
 

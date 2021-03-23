@@ -1,9 +1,9 @@
 using EindCaseBackEnd.Data;
 using EindCaseBackEnd.Models;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +30,11 @@ namespace EindCaseBackEnd
         {
             services.AddControllers();
             services.AddDbContext<CursusContext>(options => options.UseSqlServer(Configuration.GetConnectionString("CursusDb")));
+            services.AddCors(co => { co.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin()); });
+            
+            
+            
+            CorsPolicyBuilder corsBuilder = new CorsPolicyBuilder();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +50,8 @@ namespace EindCaseBackEnd
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(options => options.AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {
