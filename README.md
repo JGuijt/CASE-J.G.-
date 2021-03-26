@@ -42,15 +42,26 @@ StartDatum,
 CursusId
 
 Momenteel is de database nog leeg.
-De beide tabellen zijn te vullen met enkele testwaarden:
+De beide tabellen zijn te vullen met enkele testwaarden in SSMS. Of handmatig toe te voegen als de situatie daar om vraagt,
 
-   INSERT INTO Cursussen (Duur, Titel, Code)
-   VALUES (1,'TestCursus1', 'Test1' ),(2,'TestCursus2', 'Test2' ),(3,'TestCursus3', 'Test3' )
+DECLARE @CursussenId INT;
+INSERT INTO Cursussen (Duur, Titel, Code)
+   VALUES (1,'TestCursus1', 'Test1' )
+
+SELECT @CursussenId = SCOPE_IDENTITY();
+INSERT INTO CursusInstanties(StartDatum, CursusId)
+   VALUES ('2021-01-10', @CursussenId)
+
+INSERT INTO Cursussen (Duur, Titel, Code)
+   VALUES (2,'TestCursus2', 'Test2' )
+
+SELECT @CursussenId = SCOPE_IDENTITY();
+INSERT INTO CursusInstanties(StartDatum, CursusId)
+   VALUES ('2021-01-01', @CursussenId)
+
+
    
-   INSERT INTO CursusInstanties(StartDatum, CursusId)
-   VALUES ('2021-01-12', 1),('2021-01-01', 2),('2021-02-02', 2),('2021-03-03', 3)
    
-Persoonlijk heb ik SSMS gebruikt om deze commands uit te voeren.
 
 
 
