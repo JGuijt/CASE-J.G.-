@@ -26,20 +26,12 @@ export class CursusComponent implements OnInit {
   loadAllCursussen() {
     this.allCursussen = this.cursusService.getAllCursus();
     //to check if holds values
-    this.allCursussen.subscribe(res => console.log(res));
+    
 
   }
 
   
 }
 
-
-
-
-//naam webservice zit
-//dan heeft clietn call gemaakt
-//of een errro daatrna te zien krijgt
-//clinet mist 
-//feth
 
 
