@@ -60,6 +60,8 @@ INSERT INTO CursusInstanties(StartDatum, CursusId)
    VALUES ('2021-01-01', @CursussenId)
 
 
+Het uitlezen van de file is nog niet helemaal compleet.
+Enkele onderdelen zijn wel aanwezig
    
    
 
