@@ -31,12 +31,12 @@ De ConnectionString voor de database is te vinden en te wijzigen in appsettings.
  
 Momenteel bestaat de database uit een Cursussen tabel en een CursusInstanties tabel.
 Cursussen bevat:
-  I:   ID 
- II:   Duur
-III:   Titel
- IV:   Code
+Id,
+Duur,
+Titel,
+Code
 
 CursusInstanties bevat:
-  I:  Id
- II:  StartDatum
-III:  CursusId
+Id,
+StartDatum,
+CursusId
