@@ -7,6 +7,7 @@ Repo bestaat uit frontend en backend
 Frontend
 Op ze zetten met ng serve
 Te bereiken op http://localhost:4200
+
 Geeft momenteel in een tabel weer de doorgestuurde json waarden vanuit de backend.
 
 
