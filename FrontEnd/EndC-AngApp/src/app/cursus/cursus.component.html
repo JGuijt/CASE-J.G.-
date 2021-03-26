@@ -1,0 +1,24 @@
+
+<h1>Compleet cursusoverzicht</h1>
+
+<table class="table table-bordered table-sm" >
+    <thead class="thead-dark">
+        <tr>
+            <th >Duur</th>
+            <th >Titel</th>
+            <th >Startdatum</th>
+        </tr>
+</thead>
+<tbody *ngFor="let cursus of allCursussen | async">
+    <tr
+    *ngFor="let cursusInstantie of cursus.cursusInstanties" >
+        
+        <td>{{ cursus.duur }}</td>
+        <td>{{ cursus.titel }}</td>
+        <td>{{cursusInstantie.startDatum | date}}</td>      
+        
+        
+    </tr>
+</tbody>
+</table>
+

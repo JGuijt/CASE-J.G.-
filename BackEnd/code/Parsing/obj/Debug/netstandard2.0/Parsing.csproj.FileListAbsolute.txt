@@ -1,0 +1,9 @@
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\bin\Debug\netstandard2.0\Parsing.deps.json
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\bin\Debug\netstandard2.0\Parsing.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\bin\Debug\netstandard2.0\Parsing.pdb
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.csprojAssemblyReference.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.AssemblyInfoInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.AssemblyInfo.cs
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.csproj.CoreCompileInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Parsing\obj\Debug\netstandard2.0\Parsing.pdb

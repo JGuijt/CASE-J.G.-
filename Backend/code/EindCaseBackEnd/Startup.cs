@@ -26,6 +26,7 @@ namespace EindCaseBackEnd
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        // Currently services to link to DB, CORS to allow all access 
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -50,6 +51,7 @@ namespace EindCaseBackEnd
             app.UseRouting();
 
             app.UseAuthorization();
+            //CORS currently allows any origin, could specify later on
 
             app.UseCors(options => options.AllowAnyOrigin());
 

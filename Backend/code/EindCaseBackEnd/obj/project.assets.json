@@ -8736,11 +8736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\EindCaseBackEnd\\EindCaseBackEnd.csproj",
+      "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\EindCaseBackEnd\\EindCaseBackEnd.csproj",
       "projectName": "EindCaseBackEnd",
-      "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\EindCaseBackEnd\\EindCaseBackEnd.csproj",
+      "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\EindCaseBackEnd\\EindCaseBackEnd.csproj",
       "packagesPath": "C:\\Users\\Joapie\\.nuget\\packages\\",
-      "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\EindCaseBackEnd\\obj\\",
+      "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\EindCaseBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Joapie\\AppData\\Roaming\\NuGet\\NuGet.Config",

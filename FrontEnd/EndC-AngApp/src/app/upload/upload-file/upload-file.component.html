@@ -1,0 +1,16 @@
+<h1>File Uploaden</h1>
+
+
+
+<div class="form-group">
+    <label   for="file">Kies bestand</label>
+    <br>
+    <input type="file"
+            id="file"
+            (change)="handleFileInput($event.target.files)"
+            >
+            <br>
+            <br>
+            <button class="btn btn-secondary" (click)="uploadFileToServer()">Voeg het bestand Toe</button>
+</div>
+

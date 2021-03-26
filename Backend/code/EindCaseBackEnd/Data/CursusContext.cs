@@ -14,14 +14,6 @@ namespace EindCaseBackEnd.Data
         public CursusContext(DbContextOptions<CursusContext> options) : base(options)
         { }
 
-
-        //public List<Cursus> getCursus()
-        //{
-              
-            
-        //    return Cursussen.ToList();
-        //}
-
         
         public DbSet<Cursus> Cursussen {get; set;}
         public DbSet<CursusInstantie> CursusInstanties { get; set; }
