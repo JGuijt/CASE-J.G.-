@@ -1,0 +1,9 @@
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\TextInputMods.deps.json
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\TextInputMods.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\TextInputMods.pdb
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.csprojAssemblyReference.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.AssemblyInfoInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.AssemblyInfo.cs
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.csproj.CoreCompileInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\TextInputMods.pdb

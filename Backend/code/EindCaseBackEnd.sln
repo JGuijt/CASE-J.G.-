@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parsing", "Parsing\Parsing.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParseTests", "ParseTests\ParseTests.csproj", "{70040E97-AD02-4CB8-A6FF-8C27CAE80FE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader", "Reader\Reader.csproj", "{DB39B044-4402-4A6F-822E-ADFE6058185D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInputMods", "Reader\TextInputMods.csproj", "{DB39B044-4402-4A6F-822E-ADFE6058185D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInputModsTests", "TextInputModsTests\TextInputModsTests.csproj", "{FEED9555-2CBB-4D6F-8DAF-126CCE782E66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DB39B044-4402-4A6F-822E-ADFE6058185D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB39B044-4402-4A6F-822E-ADFE6058185D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB39B044-4402-4A6F-822E-ADFE6058185D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEED9555-2CBB-4D6F-8DAF-126CCE782E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEED9555-2CBB-4D6F-8DAF-126CCE782E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEED9555-2CBB-4D6F-8DAF-126CCE782E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEED9555-2CBB-4D6F-8DAF-126CCE782E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

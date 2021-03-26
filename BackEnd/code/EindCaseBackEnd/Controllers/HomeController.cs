@@ -10,6 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using TextInputMods;
 
 namespace EindCaseBackEnd.Controllers
 {
@@ -19,8 +20,8 @@ namespace EindCaseBackEnd.Controllers
     {
 
         private readonly CursusContext cursusContext;
-        private IWebHostEnvironment _webHostEnvironment;
-        private byte[] res;
+        private IWebHostEnvironment _webHostEnvironment;        
+        private string readOutput;
 
         public HomeController(CursusContext context, IWebHostEnvironment webHostEnvironment)
         {
@@ -38,57 +39,27 @@ namespace EindCaseBackEnd.Controllers
 
 
         [HttpPost, DisableRequestSizeLimit]
-        public ActionResult UploadFile()
+        public async Task<IActionResult> UploadFile()
         {
             try
             {
                 
                 var file = Request.Form.Files[0];
-                string folderName = "Upload";
-                //string webRootPath = _webHostEnvironment.WebRootPath;
-                string localPath = "C:/Users/Joapie/Desktop";
-                string newPath = Path.Combine(localPath, folderName);
-                if (!Directory.Exists(newPath))
-                {
-                    Directory.CreateDirectory(newPath);
-                }
+               
 
-                if (file.Length > 0)
-                {
-                    string fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-                    string fullPath = Path.Combine(newPath, fileName);
-                    
-
-                    using (FileStream stream = new FileStream(fullPath, FileMode.Create))
-                    {
-                        file.CopyTo(stream);                       
-
-                    }
-                }
+                FileReader read = new FileReader();
+                readOutput = await read.ReadFile(file);               
+               
                 
-                return Content("it did");
+                
+                return StatusCode(200);
 
             }
             catch (System.Exception x)
             {
-                return Content("Upload Failed" + x.Message);
+                return StatusCode(500, x.Message);
             }
         }
-
-
-
-        //[HttpPost, DisableRequestSizeLimit]
-        //public IActionResult UploadFile()
-        //{
-        //    try
-        //    {
-        //        var file = Request.Form.Files[0];
-        //        var folderName = Path.Combine("res", "img");
-        //    }
-
-
-        //}
-
 
 
 

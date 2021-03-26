@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace Reader
+namespace TextInputMods
 {
     public class FileReader
     {

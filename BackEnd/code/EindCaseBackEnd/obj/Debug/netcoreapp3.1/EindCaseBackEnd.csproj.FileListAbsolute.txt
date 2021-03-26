@@ -201,3 +201,7 @@ N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseB
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
 N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\TextInputMods.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\EindCaseBackEnd\bin\Debug\netcoreapp3.1\TextInputMods.pdb

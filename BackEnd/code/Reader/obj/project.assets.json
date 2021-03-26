@@ -513,9 +513,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Reader\\Reader.csproj",
-      "projectName": "Reader",
-      "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Reader\\Reader.csproj",
+      "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Reader\\TextInputMods.csproj",
+      "projectName": "TextInputMods",
+      "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Reader\\TextInputMods.csproj",
       "packagesPath": "C:\\Users\\Joapie\\.nuget\\packages\\",
       "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Reader\\obj\\",
       "projectStyle": "PackageReference",

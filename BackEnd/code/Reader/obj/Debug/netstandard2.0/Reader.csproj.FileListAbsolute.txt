@@ -1,0 +1,9 @@
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\Reader.deps.json
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\Reader.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\bin\Debug\netstandard2.0\Reader.pdb
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.csprojAssemblyReference.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.AssemblyInfoInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.AssemblyInfo.cs
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.csproj.CoreCompileInputs.cache
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.dll
+N:\BELASTINGDIENST\Courses\Eindcase\Repos\CompleteEndCase\Backend\code\Reader\obj\Debug\netstandard2.0\Reader.pdb
