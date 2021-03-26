@@ -1,0 +1,24 @@
+Start of Backend
+
+
+Database opzetten met EF Core
+De huidige database heeft de naam CursusDb.
+De ConnectionString voor de database is te wijzigen naar de juiste database provider in appsettings.json
+ 
+ Voor het opzetten van de database is EF Core te gebruiken.
+ In Package Manager Console invoeren
+    I: Add-Migration
+    II: Update-Database
+
+Momenteel bestaat de database uit een Cursussen tabel en een CursusInstanties tabel
+Cursussen bevat:
+I:    ID 
+II:   Duur
+III:  Titel
+IV:   Code
+
+CursusInstanties bevat:
+I:    Id
+II:   StartDatum
+III:  CursusId
+
