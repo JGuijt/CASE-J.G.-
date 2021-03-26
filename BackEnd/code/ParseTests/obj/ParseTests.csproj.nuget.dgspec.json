@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\ParseTests\\ParseTests.csproj": {}
+    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\ParseTests\\ParseTests.csproj": {}
   },
   "projects": {
-    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\ParseTests\\ParseTests.csproj": {
+    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\ParseTests\\ParseTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\ParseTests\\ParseTests.csproj",
+        "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\ParseTests\\ParseTests.csproj",
         "projectName": "ParseTests",
-        "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\ParseTests\\ParseTests.csproj",
+        "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\ParseTests\\ParseTests.csproj",
         "packagesPath": "C:\\Users\\Joapie\\.nuget\\packages\\",
-        "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\ParseTests\\obj\\",
+        "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\ParseTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joapie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\Parsing.csproj": {
-                "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\Parsing.csproj"
+              "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\Parsing.csproj": {
+                "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\Parsing.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\Parsing.csproj": {
+    "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\Parsing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\Parsing.csproj",
+        "projectUniqueName": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\Parsing.csproj",
         "projectName": "Parsing",
-        "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\Parsing.csproj",
+        "projectPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\Parsing.csproj",
         "packagesPath": "C:\\Users\\Joapie\\.nuget\\packages\\",
-        "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\EndCaseGitHubRepo\\CASE-J.Guijt-\\BackEnd\\code\\Parsing\\obj\\",
+        "outputPath": "N:\\BELASTINGDIENST\\Courses\\Eindcase\\Repos\\CompleteEndCase\\Backend\\code\\Parsing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joapie\\AppData\\Roaming\\NuGet\\NuGet.Config",
