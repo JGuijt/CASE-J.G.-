@@ -5,7 +5,7 @@ Start van EndCase
 Repo bestaat uit frontend en backend
 
 Frontend
-Op ze zetten met ng serve
+Op ze zetten met ng serve.
 Te bereiken op http://localhost:4200
 
 Geeft momenteel in een tabel weer de doorgestuurde json waarden vanuit de backend.
@@ -18,7 +18,7 @@ Te bereiken op: https://localhost:44354/api/home
 
 Voor de applicatie kan draaien moet er eerst een database aangemaakt worden.
 
-De database is op te zetten met EF Core
+De database is op te zetten met EF Core:
 in de Package Manager Console
     I: Add-Migration
    II: Update-Database
@@ -29,7 +29,7 @@ De ConnectionString voor de database is te vinden en te wijzigen in appsettings.
  
  
  
-Momenteel bestaat de database uit een Cursussen tabel en een CursusInstanties tabel
+Momenteel bestaat de database uit een Cursussen tabel en een CursusInstanties tabel.
 Cursussen bevat:
   I:   ID 
  II:   Duur
